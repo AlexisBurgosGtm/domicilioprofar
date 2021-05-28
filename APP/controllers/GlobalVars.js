@@ -1,10 +1,10 @@
 let root = document.getElementById('root');
 
-let GlobalToken = 'FARMASALUD';
+let GlobalToken = 'FARMARURAL';
 let GlobalUsuario = 'DOMICILIO';
 let GlobalNivelUser = 0;
-let GlobalEmpnit = 'FARMASALUD';
-let GlobalEmpNombre = 'FARMACIA SALUD Y AHORRO';
+let GlobalEmpnit = 'FARMARURAL001';
+let GlobalEmpNombre = 'PROVEEDORA FARMACEUTICA RURAL';
 let GlobalSelectedForm = '';
 let GlobalSelectedSucursal = document.getElementById('cmbSucursalSeleccionada');
 

@@ -1,8 +1,8 @@
 ﻿
 
 const config = {
-	user: 'DB_A671FA_farmasalud_admin', password: 'Celta2005', 
-	server: 'sql5006.site4now.net', database: 'DB_A671FA_farmasalud', 
+	user: 'DB_A54053_Respaldobd_admin', password: 'Alexis2020', 
+	server: 'SQL5049.site4now.net', database: 'DB_A54053_Respaldobd', 
 	pool: {max: 100,min: 0,idleTimeoutMillis: 30000}
 };
 
