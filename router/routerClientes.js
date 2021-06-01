@@ -19,9 +19,8 @@ router.post("/clientenuevo", async(req,res)=>{
     
     let qry ='';
 
-    qry = `INSERT INTO COMMUNITY_CLIENTES_DOMICILIO (EMPNIT,DPI,NIT,NOMBRECLIENTE,DIRCLIENTE,CODMUNICIPIO,CODDEPARTAMENTO,TELEFONOCLIENTE,EMAILCLIENTE,LATITUDCLIENTE,LONGITUDCLIENTE,CATEGORIA,CIUDADANIA,CODRUTA,HABILITADO,PROVINCIA,TOKEN) 
-    VALUES ('${empnit}','SN','${nit}','${nombre}','${direccion}',${codmun},${coddepto},'${telefono}','SN','${lat}','${long}','${tipoprecio}','SN',1,'SI','SN','${token}');`
-    
+      qry = `INSERT INTO COMMUNITY_CLIENTES_DOMICILIO (EMPNIT,DPI,NIT,NOMBRECLIENTE,DIRCLIENTE,CODMUNICIPIO,CODDEPARTAMENTO,TELEFONOCLIENTE,EMAILCLIENTE,LATITUDCLIENTE,LONGITUDCLIENTE,CATEGORIA,CIUDADANIA,CODRUTA,FECHAINICIO,HABILITADO,PROVINCIA,TOKEN) 
+   VALUES ('${empnit}','SN','${nit}','${nombre}','${direccion}',${codmun},${coddepto},'${telefono}','SN','${lat}','${long}','${tipoprecio}','SN',1,'${fechainicio}','SI','SN','${token}');`
   
     execute.Query(res,qry);
 
